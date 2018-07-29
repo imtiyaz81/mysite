@@ -1,0 +1,190 @@
+{
+  "ns1:Header": {
+    "@xmlns:ns1": "http://KPN.ESB.Generic.ITIL.IG/V3/0/header",
+    "Source": "AUTOMIC-ARA",
+    "Destination": "GTN-SN",
+    "Version": "V3",
+    "MessageDate": "2018-04-17T14:42:24.2086813Z",
+    "MessageID": "293e1e8d-9e42-45da-ab70-48e45b47916e",
+    "ProcessType": "Change",
+    "ActionType": "Create",
+    "MessageType": "Request",
+    "IsTask": "false"
+  },
+  "ns0:Process": {
+    "@xmlns:ns0": "http://KPN.ESB.External.ITIL.IG/V3/0",
+    "ns2:Ticket": {
+      "@xmlns:ns2": "http://KPN.ESB.Generic.ITIL.IG/V3/0/ticket",
+      "ClientTicketID": "1144124",
+      "Summary": " B AAB SLB 149263 ACA SLB Basic - 111",
+      "Description": "Please process this Request and keep us informed about the status.",
+      "Ticket_Attributes": [
+        {
+          "attribute": [
+            {
+              "@name": "ABNAMRO WebID",
+              "#text": "149263"
+            },
+            {
+              "@name": "Order date",
+              "#text": "24-7-2018 15:34:00"
+            },
+            {
+              "@name": "Dossier version",
+              "#text": "2"
+            },
+            {
+              "@name": "For which country is this request",
+              "#text": "Nederland"
+            },
+            {
+              "@name": "Applicant - Name",
+              "#text": "AW Spaans"
+            },
+            {
+              "@name": "Applicant - Phone",
+              "#text": "11111111111111111111"
+            },
+            {
+              "@name": "Applicant - E-mail",
+              "#text": "arwout.spaans@nl.abnamro.com"
+            },
+            {
+              "@name": "Applicant - BO number",
+              "#text": "496120"
+            },
+            {
+              "@name": "Applicant - Department",
+              "#text": "IT SERVICES IBM IN FLIGHT PROJECTS"
+            },
+            {
+              "@name": "Line manager - Name",
+              "#text": "Leonard van Roijen"
+            },
+            {
+              "@name": "Line manager - Phone",
+              "#text": "11111111111111111111"
+            },
+            {
+              "@name": "Line manager - E-mail",
+              "#text": "11111111111111111111111@nl.abnamro.com"
+            },
+            {
+              "@name": "Costcentre / Project budgetcode",
+              "#text": "DX1234"
+            },
+            {
+              "@name": "Domain",
+              "#text": "CB Products & Distribution"
+            },
+            {
+              "@name": "Run Manager",
+              "#text": "Job Machielsen"
+            },
+            {
+              "@name": "Technical Contact - Name",
+              "#text": "AW Spaans"
+            },
+            {
+              "@name": "Technical Contact - Phone",
+              "#text": "11111111111111111111"
+            },
+            {
+              "@name": "Technical Contact - E-mail",
+              "#text": "arwout.spaans@nl.abnamro.com"
+            },
+            {
+              "@name": "Validation Contact - Name",
+              "#text": "1111"
+            },
+            {
+              "@name": "Validation Contact - Phone",
+              "#text": "111111111111111111"
+            },
+            {
+              "@name": "Validation Contact - E-mail",
+              "#text": "1111111111111111111111111111@nl.abnamro.com"
+            },
+            {
+              "@name": "Project name",
+              "#text": "111"
+            },
+            {
+              "@name": "Project Remarks/Explanation",
+              "#text": ""
+            },
+            {
+              "@name": "Virtuel server - Staging",
+              "#text": "PR"
+            },
+            {
+              "@name": "Virtuel server - DNS Hostname",
+              "#text": "11"
+            },
+            {
+              "@name": "Virtuel server - Remarks/Explanation",
+              "#text": "11"
+            },
+            {
+              "@name": "Virtuel server - Service Port",
+              "#text": "111"
+            },
+            {
+              "@name": "Virtuel server - Persistency Profile",
+              "#text": "INSERT COOKIE BY LOAD BALANCER"
+            },
+            {
+              "@name": "Pool Members - Load Balancing Method",
+              "#text": "Round Robin"
+            },
+            {
+              "@name": "Pool Members - Persistency Profile",
+              "#text": "INSERT COOKIE BY LOAD BALANCER"
+            },
+            {
+              "@name": "Pool Members - Priority Group Activation (PGA)",
+              "#text": "YES"
+            },
+            {
+              "@name": "Pool Member IP (1)",
+              "#text": "1:1:ACTIVE"
+            },
+            {
+              "@name": "Pool Member IP (2)",
+              "#text": "1:1:ACTIVE"
+            },
+            {
+              "@name": "Healthcheck - Healthcheck type",
+              "#text": "TCP HALF OPEN"
+            },
+            {
+              "@name": "Healthcheck - Healthcheck content",
+              "#text": "11"
+            },
+            {
+              "@name": "Execution - Date",
+              "#text": "06-08-2018"
+            },
+            {
+              "@name": "Execution - Timeslot",
+              "#text": "van 4 tot 5 uur"
+            },
+            {
+              "@name": "ICTFO Comment/Remarks",
+              "#text": "asdada"
+            }
+          ]
+        }
+      ]
+    },
+    "ns3:Company": {
+      "@xmlns:ns3": "http://KPN.ESB.Generic.ITIL.IG/V3/0/company",
+      "ID": "1103559532",
+      "Name": "ABN AMRO Bank N.V."
+    },
+    "ns5:CI": {
+      "@xmlns:ns5": "http://KPN.ESB.Generic.ITIL.IG/V3/0/ci",
+      "ID": "DC Security Services - SLB Basic (CI)"
+    }
+  }
+}
